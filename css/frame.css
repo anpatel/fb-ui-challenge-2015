@@ -1,0 +1,64 @@
+body {
+	margin: 0;
+}
+
+.facebook-banner {
+	background-color: #4B6EA9;
+	height:28px;
+	/* border */
+	-webkit-border-radius: 0px 0px 2px 2px;
+	-moz-border-radius: 12px; 
+	border-radius: 0px 0px 2px 2px;
+	border:1px solid #30599A;
+}
+
+.facebook-banner, .calendar-frame {
+	margin: 0 auto;
+	width: 95%;
+}
+
+.calendar-frame {
+	margin-top: 65px;
+	margin-bottom: 122px;
+	height: 720px;
+	width: 820px;
+	white-space: nowrap;
+}
+
+.time {
+	width: 75px;
+	text-align: right;
+	float: left;
+	list-style: none;
+	margin-top: -13px;
+}
+
+.time-item {
+	line-height: 30px;
+	height: 30px;
+}
+
+.time-main {
+	color: #686868;
+	font-size: 0.875em; /* 14px = 16*0.875em */
+	font-weight: bold;
+}
+
+.time-main-ampm {
+	font-weight: bold;
+}
+
+.time-main-ampm, .time-sub {
+	color: #A7A7A7;
+	font-size: 0.625em; /* 14px = 16*0.625em */
+}
+
+.event-frame {
+	background-color: #ECECEC;
+	width: 600px;
+	height: inherit;
+	float: left;
+	padding: 0px 10px 0px 9px;
+	margin-left: 10px;
+	border-left: 1px solid #D6D6D6;
+}

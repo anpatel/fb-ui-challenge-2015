@@ -1,0 +1,30 @@
+.event {
+    position: absolute;
+    background: #FFFFFF;
+    width: 600px;
+    overflow: hidden;
+    height: 100%;
+    border-left: 4px solid #4B6EA9;
+}
+
+.event-name {
+    color: #4B6EA9;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.event-location {
+    color: #838383;
+    font-size: 10px;
+}
+
+.event-description {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #D5D5D5;
+    padding: 8px;
+    border-left: none;
+    height: inherit;
+}
+
